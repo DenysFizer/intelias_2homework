@@ -36,7 +36,7 @@ func main() {
 	if max == min {
 		result = result + strconv.Itoa(max)
 	} else {
-		result = result + strconv.Itoa(min) + " " + strconv.Itoa(max)
+		result = result + strconv.Itoa(max) + " " + strconv.Itoa(min)
 	}
 	fmt.Println(result)
 
